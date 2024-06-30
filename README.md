@@ -24,20 +24,25 @@ Ensure you have the following installed:
    ```
 2. Install the dependencies:
    ```
-       npm install
+    npm install
    ```
 
 Running the Application
 To start the application, use the following command:
-`        npm start
-   `
+
+```
+ npm start
+```
 
 This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
 
 Building the Application
 To build the application for production, use the following command:
-`        npm run build
-   `
+
+```
+ npm run build
+```
+
 This will create a build folder with the production build of the application.
 
 ## Dependencies
