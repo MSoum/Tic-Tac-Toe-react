@@ -22,3 +22,40 @@ Ensure you have the following installed:
    git clone https://github.com/MSoum/test-proj.git
    cd tic-tac-toe
    ```
+2. Install the dependencies:
+   ```sh
+       npm install
+   ```
+
+Running the Application
+To start the application, use the following command:
+`sh
+        npm start
+    `
+
+This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
+
+Building the Application
+To build the application for production, use the following command:
+`sh
+        npm run build
+    `
+This will create a build folder with the production build of the application.
+
+## Dependencies
+
+The project relies on the following major dependencies:
+
+- **react** (v18.3.1): A JavaScript library for building user interfaces
+- **react-dom** (v18.3.1): Provides DOM-specific methods for React
+- **react-scripts** (v5.0.1): Scripts and configuration used by Create React App
+
+### Testing Libraries
+
+- **@testing-library/jest-dom** (v5.17.0): Custom jest matchers to test the state of the DOM
+- **@testing-library/react** (v13.4.0): Simple and complete React DOM testing utilities
+- **@testing-library/user-event** (v13.5.0): Fire events the same way the user does
+
+### Performance Metrics
+
+- **web-vitals** (v2.1.4): A small library for measuring web performance metrics
