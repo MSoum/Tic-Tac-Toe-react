@@ -18,28 +18,26 @@ Ensure you have the following installed:
 ### Installation
 
 1. Clone the repository:
-   ```sh
+   ```
    git clone https://github.com/MSoum/test-proj.git
    cd tic-tac-toe
    ```
 2. Install the dependencies:
-   ```sh
+   ```
        npm install
    ```
 
 Running the Application
 To start the application, use the following command:
-`sh
-        npm start
-    `
+`        npm start
+   `
 
 This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
 
 Building the Application
 To build the application for production, use the following command:
-`sh
-        npm run build
-    `
+`        npm run build
+   `
 This will create a build folder with the production build of the application.
 
 ## Dependencies
