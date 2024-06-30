@@ -1,1 +1,120 @@
-# Tic-Tac-Toe\n\n## Overview\n\nThis project is a simple implementation of the classic Tic-Tac-Toe game built using React. It serves as a foundational example to demonstrate how to set up and run a React application.\n\n## Getting Started\n\nTo get started with this project, follow the instructions below to set up and run the application locally.\n\n### Prerequisites\n\nEnsure you have the following installed:\n\n- Node.js (v14 or higher)\n- npm (v6 or higher) or yarn (v1.22 or higher)\n\n### Installation\n\n1. Clone the repository:\n `sh\n   git clone <repository-url>\n   cd tic-tac-toe\n   `\n\n2. Install the dependencies:\n `sh\n   npm install\n   `\n or if you prefer yarn:\n `sh\n   yarn install\n   `\n\n### Running the Application\n\nTo start the application, use the following command:\n`sh\nnpm start\n`\nor if using yarn:\n`sh\nyarn start\n`\nThis will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.\n\n### Building the Application\n\nTo build the application for production, use the following command:\n`sh\nnpm run build\n`\nor if using yarn:\n`sh\nyarn build\n`\nThis will create a `build` folder with the production build of the application.\n\n### Running Tests\n\nTo run the tests, use the following command:\n`sh\nnpm test\n`\nor if using yarn:\n`sh\nyarn test\n`\n\n### Ejecting\n\nIf you need to customize the configuration of your application, you can eject it by running:\n`sh\nnpm run eject\n`\nor if using yarn:\n`sh\nyarn eject\n`\n**Note:** This is a one-way operation. Once you eject, you can't go back!\n\n## Project Structure\n\n- **`src/`**: Contains the source code for the application\n- **`public/`**: Contains the public assets and the HTML template\n\n## Dependencies\n\nThe project relies on the following major dependencies:\n\n- `react` (v18.3.1): A JavaScript library for building user interfaces\n- `react-dom` (v18.3.1): Provides DOM-specific methods for React\n- `react-scripts` (v5.0.1): Scripts and configuration used by Create React App\n\n### Testing Libraries\n\n- `@testing-library/jest-dom` (v5.17.0): Custom jest matchers to test the state of the DOM\n- `@testing-library/react` (v13.4.0): Simple and complete React DOM testing utilities\n- `@testing-library/user-event` (v13.5.0): Fire events the same way the user does\n\n### Performance Metrics\n\n- `web-vitals` (v2.1.4): A small library for measuring web performance metrics\n\n## Browserslist Configuration\n\nThe project is configured to support the following browsers:\n\n- **Production**:\n - `>0.2%`\n - `not dead`\n - `not op_mini all`\n\n- **Development**:\n - `last 1 chrome version`\n - `last 1 firefox version`\n - `last 1 safari version`\n\n## Contributing\n\nIf you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.\n\n## License\n\nThis project is licensed under the MIT License.\n\n## Acknowledgements\n\nThanks to the developers and contributors of the libraries and tools used in this project.\n\n---\n\nHappy coding!
+# Tic-Tac-Toe
+
+## Overview
+
+This project is a simple implementation of the classic Tic-Tac-Toe game built using React. It serves as a foundational example to demonstrate how to set up and run a React application.
+
+## Getting Started
+
+To get started with this project, follow the instructions below to set up and run the application locally.
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js (v14 or higher)
+- npm (v6 or higher) or yarn (v1.22 or higher)
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd tic-tac-toe
+   Install the dependencies:
+   sh
+   Copy code
+   npm install
+   or if you prefer yarn:
+   sh
+   Copy code
+   yarn install
+   Running the Application
+   To start the application, use the following command:
+   ```
+
+sh
+Copy code
+npm start
+or if using yarn:
+
+sh
+Copy code
+yarn start
+This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
+
+Building the Application
+To build the application for production, use the following command:
+
+sh
+Copy code
+npm run build
+or if using yarn:
+
+sh
+Copy code
+yarn build
+This will create a build folder with the production build of the application.
+
+Running Tests
+To run the tests, use the following command:
+
+sh
+Copy code
+npm test
+or if using yarn:
+
+sh
+Copy code
+yarn test
+Ejecting
+If you need to customize the configuration of your application, you can eject it by running:
+
+sh
+Copy code
+npm run eject
+or if using yarn:
+
+sh
+Copy code
+yarn eject
+Note: This is a one-way operation. Once you eject, you can't go back!
+
+Project Structure
+src/: Contains the source code for the application
+public/: Contains the public assets and the HTML template
+Dependencies
+The project relies on the following major dependencies:
+
+react (v18.3.1): A JavaScript library for building user interfaces
+react-dom (v18.3.1): Provides DOM-specific methods for React
+react-scripts (v5.0.1): Scripts and configuration used by Create React App
+Testing Libraries
+@testing-library/jest-dom (v5.17.0): Custom jest matchers to test the state of the DOM
+@testing-library/react (v13.4.0): Simple and complete React DOM testing utilities
+@testing-library/user-event (v13.5.0): Fire events the same way the user does
+Performance Metrics
+web-vitals (v2.1.4): A small library for measuring web performance metrics
+Browserslist Configuration
+The project is configured to support the following browsers:
+
+Production:
+
+> 0.2%
+> not dead
+> not op_mini all
+> Development:
+
+last 1 chrome version
+last 1 firefox version
+last 1 safari version
+Contributing
+If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License.
+
+Acknowledgements
+Thanks to the developers and contributors of the libraries and tools used in this project.
+
+Happy coding!
