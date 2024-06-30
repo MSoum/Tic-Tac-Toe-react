@@ -19,6 +19,6 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/MSoum/test-proj.git
    cd tic-tac-toe
    ```
