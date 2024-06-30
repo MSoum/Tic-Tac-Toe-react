@@ -59,3 +59,15 @@ The project relies on the following major dependencies:
 ### Performance Metrics
 
 - **web-vitals** (v2.1.4): A small library for measuring web performance metrics
+
+## Contributing
+
+If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+Thanks to the developers and contributors of the libraries and tools used in this project.
